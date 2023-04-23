@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "FirstStepsInCoding-exercise\Variables.csproj", "{9DB7E51B-B4B6-44C0-813A-9BA02C94DB8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A6F46C40-7104-4BAD-921F-69FEBA6EB9F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stringHelloSoftUni", "stringHelloSoftUni\stringHelloSoftUni.csproj", "{4CE7E865-DD6A-450C-85DF-FE899E2D402A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USD to BGN условие", "USD to BGN\USD to BGN условие.csproj", "{DA3E0D5D-9D32-4425-95B1-BD5DEF4632F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USD to BGN task", "USD to BGN task\USD to BGN task.csproj", "{34A9E93F-FC72-4B93-86C8-67D9DA4ED193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radians to Degrees", "Radians to Degrees\Radians to Degrees.csproj", "{A159DC0E-5D31-48B9-869C-006381E7BEF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radians to degrees task", "Radians to degrees task\Radians to degrees task.csproj", "{AE26D98C-2550-4F64-9716-CD6F396B756B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DB7E51B-B4B6-44C0-813A-9BA02C94DB8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB7E51B-B4B6-44C0-813A-9BA02C94DB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB7E51B-B4B6-44C0-813A-9BA02C94DB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB7E51B-B4B6-44C0-813A-9BA02C94DB8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F46C40-7104-4BAD-921F-69FEBA6EB9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F46C40-7104-4BAD-921F-69FEBA6EB9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F46C40-7104-4BAD-921F-69FEBA6EB9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F46C40-7104-4BAD-921F-69FEBA6EB9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE7E865-DD6A-450C-85DF-FE899E2D402A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE7E865-DD6A-450C-85DF-FE899E2D402A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE7E865-DD6A-450C-85DF-FE899E2D402A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE7E865-DD6A-450C-85DF-FE899E2D402A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3E0D5D-9D32-4425-95B1-BD5DEF4632F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3E0D5D-9D32-4425-95B1-BD5DEF4632F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3E0D5D-9D32-4425-95B1-BD5DEF4632F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3E0D5D-9D32-4425-95B1-BD5DEF4632F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A9E93F-FC72-4B93-86C8-67D9DA4ED193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A9E93F-FC72-4B93-86C8-67D9DA4ED193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A9E93F-FC72-4B93-86C8-67D9DA4ED193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A9E93F-FC72-4B93-86C8-67D9DA4ED193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A159DC0E-5D31-48B9-869C-006381E7BEF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A159DC0E-5D31-48B9-869C-006381E7BEF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A159DC0E-5D31-48B9-869C-006381E7BEF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A159DC0E-5D31-48B9-869C-006381E7BEF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE26D98C-2550-4F64-9716-CD6F396B756B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE26D98C-2550-4F64-9716-CD6F396B756B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE26D98C-2550-4F64-9716-CD6F396B756B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE26D98C-2550-4F64-9716-CD6F396B756B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96CFEE78-5417-4E1E-99BB-B7167D59B9A2}
+	EndGlobalSection
+EndGlobal
