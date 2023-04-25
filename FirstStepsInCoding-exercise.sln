@@ -5,17 +5,25 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "FirstStepsInCoding-exercise\Variables.csproj", "{9DB7E51B-B4B6-44C0-813A-9BA02C94DB8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A6F46C40-7104-4BAD-921F-69FEBA6EB9F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A6F46C40-7104-4BAD-921F-69FEBA6EB9F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stringHelloSoftUni", "stringHelloSoftUni\stringHelloSoftUni.csproj", "{4CE7E865-DD6A-450C-85DF-FE899E2D402A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stringHelloSoftUni", "stringHelloSoftUni\stringHelloSoftUni.csproj", "{4CE7E865-DD6A-450C-85DF-FE899E2D402A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USD to BGN условие", "USD to BGN\USD to BGN условие.csproj", "{DA3E0D5D-9D32-4425-95B1-BD5DEF4632F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "USD to BGN условие", "USD to BGN\USD to BGN условие.csproj", "{DA3E0D5D-9D32-4425-95B1-BD5DEF4632F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USD to BGN task", "USD to BGN task\USD to BGN task.csproj", "{34A9E93F-FC72-4B93-86C8-67D9DA4ED193}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "USD to BGN task", "USD to BGN task\USD to BGN task.csproj", "{34A9E93F-FC72-4B93-86C8-67D9DA4ED193}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radians to Degrees", "Radians to Degrees\Radians to Degrees.csproj", "{A159DC0E-5D31-48B9-869C-006381E7BEF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radians to Degrees", "Radians to Degrees\Radians to Degrees.csproj", "{A159DC0E-5D31-48B9-869C-006381E7BEF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radians to degrees task", "Radians to degrees task\Radians to degrees task.csproj", "{AE26D98C-2550-4F64-9716-CD6F396B756B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radians to degrees task", "Radians to degrees task\Radians to degrees task.csproj", "{AE26D98C-2550-4F64-9716-CD6F396B756B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deposit calculator", "Deposit calculator\Deposit calculator.csproj", "{C1FC5AAB-D232-490C-8361-7A6436C3D535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vacation Book List", "Vacation Book List\Vacation Book List.csproj", "{3EDF831D-0215-44D5-8AD0-156BC56987D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basketball Equipment", "Basketball Equipment\Basketball Equipment.csproj", "{D290330A-CDBF-4549-A357-1E759B3209AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Food delivery", "Food delivery\Food delivery.csproj", "{FC51CB7C-C0E4-46EF-9C64-FDF4C2DF7ADD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +59,22 @@ Global
 		{AE26D98C-2550-4F64-9716-CD6F396B756B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE26D98C-2550-4F64-9716-CD6F396B756B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE26D98C-2550-4F64-9716-CD6F396B756B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1FC5AAB-D232-490C-8361-7A6436C3D535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FC5AAB-D232-490C-8361-7A6436C3D535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FC5AAB-D232-490C-8361-7A6436C3D535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1FC5AAB-D232-490C-8361-7A6436C3D535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EDF831D-0215-44D5-8AD0-156BC56987D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDF831D-0215-44D5-8AD0-156BC56987D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDF831D-0215-44D5-8AD0-156BC56987D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDF831D-0215-44D5-8AD0-156BC56987D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D290330A-CDBF-4549-A357-1E759B3209AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D290330A-CDBF-4549-A357-1E759B3209AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D290330A-CDBF-4549-A357-1E759B3209AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D290330A-CDBF-4549-A357-1E759B3209AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC51CB7C-C0E4-46EF-9C64-FDF4C2DF7ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC51CB7C-C0E4-46EF-9C64-FDF4C2DF7ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC51CB7C-C0E4-46EF-9C64-FDF4C2DF7ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC51CB7C-C0E4-46EF-9C64-FDF4C2DF7ADD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

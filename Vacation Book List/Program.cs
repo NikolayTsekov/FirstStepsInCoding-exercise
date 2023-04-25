@@ -22,6 +22,7 @@ namespace FirstStepsInCoding_22_04_2023
             // - обшо време / брой дни
             int hoursPerDay = totalHours / days;
             // 4. отпечатваме на конзолата колко часа на ден трябва да чете
+
             Console.WriteLine(hoursPerDay);
         }
     }
