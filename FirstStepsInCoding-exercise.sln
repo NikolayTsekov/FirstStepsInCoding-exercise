@@ -17,13 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radians to Degrees", "Radia
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radians to degrees task", "Radians to degrees task\Radians to degrees task.csproj", "{AE26D98C-2550-4F64-9716-CD6F396B756B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deposit calculator", "Deposit calculator\Deposit calculator.csproj", "{C1FC5AAB-D232-490C-8361-7A6436C3D535}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deposit calculator", "Deposit calculator\Deposit calculator.csproj", "{C1FC5AAB-D232-490C-8361-7A6436C3D535}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vacation Book List", "Vacation Book List\Vacation Book List.csproj", "{3EDF831D-0215-44D5-8AD0-156BC56987D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vacation Book List", "Vacation Book List\Vacation Book List.csproj", "{3EDF831D-0215-44D5-8AD0-156BC56987D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basketball Equipment", "Basketball Equipment\Basketball Equipment.csproj", "{D290330A-CDBF-4549-A357-1E759B3209AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basketball Equipment", "Basketball Equipment\Basketball Equipment.csproj", "{D290330A-CDBF-4549-A357-1E759B3209AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Food delivery", "Food delivery\Food delivery.csproj", "{FC51CB7C-C0E4-46EF-9C64-FDF4C2DF7ADD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Food delivery", "Food delivery\Food delivery.csproj", "{FC51CB7C-C0E4-46EF-9C64-FDF4C2DF7ADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuppliesForSchool", "SuppliesForSchool\SuppliesForSchool.csproj", "{EE8D0FF5-EC72-43FE-9982-88DF55C9674C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{FC51CB7C-C0E4-46EF-9C64-FDF4C2DF7ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC51CB7C-C0E4-46EF-9C64-FDF4C2DF7ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC51CB7C-C0E4-46EF-9C64-FDF4C2DF7ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE8D0FF5-EC72-43FE-9982-88DF55C9674C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE8D0FF5-EC72-43FE-9982-88DF55C9674C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE8D0FF5-EC72-43FE-9982-88DF55C9674C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE8D0FF5-EC72-43FE-9982-88DF55C9674C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
