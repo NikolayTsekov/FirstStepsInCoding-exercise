@@ -13,7 +13,7 @@ namespace FirstStepsInCoding_22_04_2023
 
             double trapezoidArea = (b1 + b2) * h / 2;
 
-            Console.WriteLine(trapezoidArea);
+            Console.WriteLine($"{trapezoidArea:F2}");
         }
     }
 }
