@@ -71,11 +71,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pets", "Pets\Pets.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowerShop", "FlowerShop\FlowerShop.csproj", "{DF328D6D-8C43-48F6-A401-5FCEEB46E1ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuelTank", "FuelTank\FuelTank.csproj", "{C2ADDAC1-348A-4AC3-8957-7BA566C40D05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuelTank", "FuelTank\FuelTank.csproj", "{C2ADDAC1-348A-4AC3-8957-7BA566C40D05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fishland", "Fishland\Fishland.csproj", "{E790AB57-8CB1-46DF-956A-3605ACB4C9F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fishland", "Fishland\Fishland.csproj", "{E790AB57-8CB1-46DF-956A-3605ACB4C9F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HousePainting", "HousePainting\HousePainting.csproj", "{21D2B5BB-50BA-4DDE-BA80-51C0A2DC35B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HousePainting", "HousePainting\HousePainting.csproj", "{21D2B5BB-50BA-4DDE-BA80-51C0A2DC35B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleAreaAndPerimeter", "CircleAreaAndPerimeter\CircleAreaAndPerimeter.csproj", "{4005C327-AE81-43C5-8C09-1DB9B062921E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast", "WeatherForecast\WeatherForecast.csproj", "{E38CB872-60A3-40F1-AB1C-A57954913A61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +235,14 @@ Global
 		{21D2B5BB-50BA-4DDE-BA80-51C0A2DC35B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21D2B5BB-50BA-4DDE-BA80-51C0A2DC35B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21D2B5BB-50BA-4DDE-BA80-51C0A2DC35B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4005C327-AE81-43C5-8C09-1DB9B062921E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4005C327-AE81-43C5-8C09-1DB9B062921E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4005C327-AE81-43C5-8C09-1DB9B062921E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4005C327-AE81-43C5-8C09-1DB9B062921E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E38CB872-60A3-40F1-AB1C-A57954913A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38CB872-60A3-40F1-AB1C-A57954913A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38CB872-60A3-40F1-AB1C-A57954913A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38CB872-60A3-40F1-AB1C-A57954913A61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
