@@ -15,7 +15,7 @@ namespace FirstStepsInCoding_22_04_2023
 
             double neededDogFood = days * dogFood;
             double neededCatFood = days * catFood;
-            double neededTurtleFood = (days * turtleFood) * 0.001;
+            double neededTurtleFood = (days * turtleFood) * 0.001; // 2 дена * 1200 грама = 2.4 кг - умножаваме по 0.001, за да получим резултата в килограми
 
             double totalFood = neededDogFood + neededCatFood + neededTurtleFood;
             if (totalFood <= food )
