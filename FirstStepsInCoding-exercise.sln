@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleAreaAndPerimeter", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast", "WeatherForecast\WeatherForecast.csproj", "{E38CB872-60A3-40F1-AB1C-A57954913A61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast2", "WeatherForecast2\WeatherForecast2.csproj", "{B6D0CFC4-68C7-4BB7-8F86-1A427AA5042E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{E38CB872-60A3-40F1-AB1C-A57954913A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E38CB872-60A3-40F1-AB1C-A57954913A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E38CB872-60A3-40F1-AB1C-A57954913A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D0CFC4-68C7-4BB7-8F86-1A427AA5042E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D0CFC4-68C7-4BB7-8F86-1A427AA5042E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D0CFC4-68C7-4BB7-8F86-1A427AA5042E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D0CFC4-68C7-4BB7-8F86-1A427AA5042E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
