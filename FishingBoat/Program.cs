@@ -38,8 +38,7 @@ namespace FirstStepsInCoding_22_04_2023
                 shipRent = 2600;
             }
 
-
-            if (fisherman <= 6)
+            if (fisherman <= 6) 
             {
                 shipRent = shipRent - 0.10 * shipRent;
             }
@@ -47,18 +46,16 @@ namespace FirstStepsInCoding_22_04_2023
             {
                 shipRent = shipRent - 0.15 * shipRent;
             }
-            else if (fisherman >= 12)
+            else if (fisherman >= 12) 
             {
                 shipRent = shipRent - 0.25 * shipRent;
             }
 
-            if (fisherman % 2 == 0 && season == "Spring" && season != "Autumn") 
+            if (fisherman % 2 == 0 && season != "Autumn")
             {
                 shipRent = shipRent - 0.05 * shipRent;
-
-            }     
+            }
            
-
             if (budget >= shipRent)
             {
                 double leftMoney = budget - shipRent;
