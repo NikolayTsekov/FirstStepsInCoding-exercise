@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.Design;
 
 namespace FirstStepsInCoding_22_04_2023
 {
@@ -13,10 +14,25 @@ namespace FirstStepsInCoding_22_04_2023
              * на конзолата да се отпечата "You have enough {вида на горивото}.", ако са по-малко от 25, да се отпечата "Fill your tank with {вида на горивото}!". 
              * В случай, че бъде въведено гориво, различно от посоченото, да се отпечата "Invalid fuel!".*/
 
-            string fuel = Console.ReadLine();
+            string fuel = Console.ReadLine().ToLower();
             double litres = double.Parse(Console.ReadLine());
 
-            
+            if (fuel == "diesel" || fuel == "gasoline" || fuel == "gas")
+            {
+                if (litres >= 25)
+                {
+                    Console.WriteLine($"You have enough {fuel}.");
+                }
+                else if (litres < 25)
+                {
+                    Console.WriteLine($"Fill your tank with {fuel}!");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Invalid fuel!");
+            }
+
         }
     }
 }
