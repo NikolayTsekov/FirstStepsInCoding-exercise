@@ -23,51 +23,51 @@ namespace FirstStepsInCoding_22_04_2023
             string season = Console.ReadLine();
             int fisherman = int.Parse(Console.ReadLine());
 
-            double shipPrice = 0;
+            double shipRent = 0;
 
             if (season == "Spring")
             {
-                shipPrice = 3000;
+                shipRent = 3000;
             }
             else if (season == "Summer" || season == "Autumn")
             {
-                shipPrice = 4200;
+                shipRent = 4200;
             }
             else if (season == "Winter")
             {
-                shipPrice = 2600;
+                shipRent = 2600;
             }
 
 
             if (fisherman <= 6)
             {
-                shipPrice = shipPrice - 0.10 * shipPrice;
+                shipRent = shipRent - 0.10 * shipRent;
             }
             else if (fisherman >= 7 && fisherman <= 11)
             {
-                shipPrice = shipPrice - 0.15 * shipPrice;
+                shipRent = shipRent - 0.15 * shipRent;
             }
             else if (fisherman >= 12)
             {
-                shipPrice = shipPrice - 0.25 * shipPrice;
+                shipRent = shipRent - 0.25 * shipRent;
             }
 
-            if (fisherman % 2 == 0 && season == "Spring" && season == "Summer" && season == "Winter") 
+            if (fisherman % 2 == 0 && season == "Spring" && season != "Autumn") 
             {
-                shipPrice = shipPrice - 0.05 * shipPrice;
+                shipRent = shipRent - 0.05 * shipRent;
 
             }     
            
 
-            if (budget >= shipPrice)
+            if (budget >= shipRent)
             {
-                double leftMoney = budget - shipPrice;
+                double leftMoney = budget - shipRent;
                 Console.WriteLine($"Yes! You have {leftMoney:F2} leva left.");
 
             }
             else
             {
-                double needMoney = shipPrice - budget;
+                double needMoney = shipRent - budget;
                 Console.WriteLine($"Not enough money! You need {needMoney:F2} leva.");
             }
 
