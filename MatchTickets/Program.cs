@@ -73,7 +73,7 @@ namespace FirstStepsInCoding_22_04_2023
 			}
 			if ( category == "Normal")
 			{
-				neededMoney = people * 299.99;
+				neededMoney = people * 249.99;
 				if (moneyLeft > neededMoney)
 				{
                     Console.WriteLine($"Yes! You have {moneyLeft - neededMoney:F2} leva left.");
